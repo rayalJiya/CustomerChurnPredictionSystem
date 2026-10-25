@@ -1,0 +1,12 @@
+{
+  "target_column": "Churn",
+  "id_columns": [
+    "CustomerID"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "low_risk_max": 0.3,
+  "medium_risk_max": 0.6,
+  "svm_max_training_rows": 12000,
+  "tuning_cv": 3
+}
